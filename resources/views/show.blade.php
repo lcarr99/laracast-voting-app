@@ -80,8 +80,8 @@
 
         </div>
 
-        <div class="comments-container space-y-6 ml-22 my-8">
-            <div class="comment-container bg-white rounded-xl flex mt-4">
+        <div class="comments-container relative space-y-6 ml-22 my-8 mt-1 pt-4">
+            <div class="comment-container relative bg-white rounded-xl flex mt-4">
                 <div class="flex flex-1 px-2 py-6 px-4">
                     <div class="flex-none">
                         <a href="#">
@@ -111,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="comment-container bg-white rounded-xl flex mt-4">
+            <div class="comment-container is-admin relative bg-white rounded-xl flex mt-4">
                 <div class="flex flex-1 px-2 py-6 px-4">
                     <div class="flex-none">
                         <a href="#">
@@ -146,7 +146,7 @@
                 </div>
             </div>
 
-            <div class="comment-container bg-white rounded-xl flex mt-4">
+            <div class="comment-container relative bg-white rounded-xl flex mt-4">
                 <div class="flex flex-1 px-2 py-6 px-4">
                     <div class="flex-none">
                         <a href="#">

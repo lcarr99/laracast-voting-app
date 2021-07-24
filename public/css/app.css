@@ -25359,6 +25359,55 @@ select {
   -webkit-line-clamp: unset;
 }
 
+/* vertical line to left of the comments */
+
+.comments-container::before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -40px;
+  content: "";
+  width: 3px;
+  background: #78909c;
+  height: 100%;
+  /* opacity: .07; */
+}
+
+.comment-container::before {
+  position: absolute;
+  display: block;
+  top: 57px;
+  content: "";
+  width: 23px;
+  height: 3px;
+  background: #78909c;
+  left: -34px;
+  /* opacity: .07; */
+}
+
+.comment-container:last-child::after {
+  position: absolute;
+  display: block;
+  top: 60px;
+  left: -40px;
+  content: "";
+  width: 3px;
+  height: calc(100% - 60px);
+  background: #f7f8fc;
+}
+
+.is-admin::before {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-radius: 38px;
+  border: 7px;
+  box-shadow: 4px 4px 15px 0 rgba(36, 37, 38, 0.08);
+  left: -58px;
+  background: 8b60ed;
+  opacity: 1;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -147568,4 +147617,3 @@ select {
     -webkit-line-clamp: unset;
   }
 }
-
